@@ -9,10 +9,18 @@ function App() {
                   <p>Глюкоза (Glucose) A09.05.023.000.01</p>
                   <ul>
                       <li className="font-bold">Рекомендации</li>
-                      <li className="add-recommendation">18. HbA1c (гликированный Hb)</li>
-                      <li className="add-recommendation">119. Лейкоцитарная формула</li>
-                      <li className="add-recommendation">11. Альфа-амилаза</li>
-                      <li className="add-recommendation">ОБС73. Биохимия крови, расш.</li>
+                      <li>
+                          <button className="add-recommendation">18. HbA1c (гликированный Hb)</button>
+                      </li>
+                      <li >
+                          <button className="add-recommendation">119. Лейкоцитарная формула</button>
+                      </li>
+                      <li>
+                          <button className="add-recommendation">11. Альфа-амилаза</button>
+                      </li>
+                      <li>
+                          <button className="add-recommendation">ОБС73. Биохимия крови, расш.</button>
+                      </li>
                   </ul>
                   <span>3 аналога</span>
               </article>
