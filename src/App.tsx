@@ -32,10 +32,10 @@ function App() {
                               <ul className="w-full">
                                   {["18. HbA1c (гликированный Hb)", "119. Лейкоцитарная формула", "11. Альфа-амилаза", "ОБС73. Биохимия крови, расш."].map(item => (
                                       <li key={item} className="flex w-full items-center justify-between add-recommendation p-2 hover:bg-neutral-100 active:bg-neutral-200 rounded-xl">
-                                      <span id="recommendation-product">
+                                      <span data-productname={item}>
                                           {item}
                                       </span>
-                                          <Button data-recommendationid={item.split(".").at(0)} size="icon">
+                                          <Button data-recommendationid={item.split(".").at(0)} size="icon" id="add-rec-btn">
                                               <Plus/>
                                           </Button>
                                       </li>
@@ -58,19 +58,14 @@ function App() {
                               <ul>
                                   {["АКЦ818. Акция Обследуй щитовидную железу"].map(item => (
                                       <li key={item} className="flex w-full items-center justify-between add-recommendation p-2 hover:bg-neutral-100 active:bg-neutral-200 rounded-xl">
-                                      <span  id="recommendation-product">
+                                      <span data-productname={item}>
                                           {item}
                                       </span>
-                                          <Button data-recommendationid={item.split(".").at(0)} size="icon">
+                                          <Button data-recommendationid={item.split(".").at(0)} size="icon" id="add-rec-btn">
                                               <Plus/>
                                           </Button>
                                       </li>
                                   ))}
-                                  <li>
-                                      <button data-recommendationid={"АКЦ818"} id="recommendation-product" className="add-recommendation p-2 hover:bg-neutral-100 active:bg-neutral-200 rounded-xl">
-
-                                      </button>
-                                  </li>
                               </ul>
                           </DialogContent>
                       </Dialog>
