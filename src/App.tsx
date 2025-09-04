@@ -21,7 +21,7 @@ function App() {
                       <b>16</b>
                       <p>Глюкоза (Glucose) A09.05.023.000.01</p>
                       <b className="font-bold"></b>
-                      <Dialog>
+                      <Dialog data-productid={16}>
                           <DialogTrigger asChild>
                               <Button>3 рекомендации</Button>
                           </DialogTrigger>
@@ -47,7 +47,7 @@ function App() {
                   <article data-productid={56} id="product" className="border flex flex-col gap-2 p-2 rounded-xl">
                       <b>56</b>
                       <p>Тиреотропный гормон (ТТГ, тиротропин) (Thyroid Stimulating Hormone, TSH)</p>
-                      <Dialog>
+                      <Dialog data-productid={56}>
                           <DialogTrigger asChild>
                               <Button>1 рекомендация</Button>
                           </DialogTrigger>
