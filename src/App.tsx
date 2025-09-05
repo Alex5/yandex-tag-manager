@@ -21,7 +21,9 @@ function App() {
               </div>
               <div className="border p-2 rounded-xl">
                   <b>Пациент:</b>
-                  <p className="patient-name">Соснин Илья2 Андреевич, 06.10.1990, Медкарта CLBMDX3</p>
+                  <p className="patient-name" data-patientname="Соснин Илья2 Андреевич, 06.10.1990, Медкарта CLBMDX3">
+                      Соснин Илья2 Андреевич, 06.10.1990, Медкарта CLBMDX3
+                  </p>
               </div>
               <div className="flex flex-col gap-6">
                   <article data-productid={16} id="product" className="border flex flex-col gap-2 p-2 rounded-xl">
