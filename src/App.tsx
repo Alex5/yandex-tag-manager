@@ -30,7 +30,7 @@ function App() {
                           <DialogTrigger asChild>
                               <Button>3 рекомендации</Button>
                           </DialogTrigger>
-                          <DialogContent data-productid={16}>
+                          <DialogContent data-originproductid={16}>
                               <DialogHeader>
                                   <DialogTitle>Добавить рекомендации</DialogTitle>
                               </DialogHeader>
@@ -49,7 +49,7 @@ function App() {
                           </DialogContent>
                       </Dialog>
                   </article>
-                  <article data-productid={56} id="product" className="border flex flex-col gap-2 p-2 rounded-xl">
+                  <article data-originproductid={56} id="product" className="border flex flex-col gap-2 p-2 rounded-xl">
                       <b>56</b>
                       <p>Тиреотропный гормон (ТТГ, тиротропин) (Thyroid Stimulating Hormone, TSH)</p>
                       <Dialog>
