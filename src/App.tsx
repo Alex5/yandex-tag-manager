@@ -35,7 +35,7 @@ function App() {
                                       <span data-productname={item}>
                                           {item}
                                       </span>
-                                          <Button data-recommendationid={item.split(".").at(0)} size="icon" id="add-rec-btn">
+                                          <Button data-recommendationid={item.split(".").at(0)} size="icon" id="add-rec-btn" className="add-rec-btn">
                                               <Plus/>
                                           </Button>
                                       </li>
@@ -61,7 +61,7 @@ function App() {
                                       <span data-productname={item}>
                                           {item}
                                       </span>
-                                          <Button data-recommendationid={item.split(".").at(0)} size="icon" id="add-rec-btn">
+                                          <Button data-recommendationid={item.split(".").at(0)} size="icon" id="add-rec-btn" className="add-rec-btn">
                                               <Plus/>
                                           </Button>
                                       </li>
