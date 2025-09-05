@@ -30,7 +30,7 @@ function App() {
                           <DialogTrigger asChild>
                               <Button>3 рекомендации</Button>
                           </DialogTrigger>
-                          <DialogContent data-originproductid={16}>
+                          <DialogContent className="add-rec-dialog" data-originproductid={16}>
                               <DialogHeader>
                                   <DialogTitle>Добавить рекомендации</DialogTitle>
                               </DialogHeader>
@@ -56,7 +56,7 @@ function App() {
                           <DialogTrigger asChild>
                               <Button>1 рекомендация</Button>
                           </DialogTrigger>
-                          <DialogContent data-productid={56}>
+                          <DialogContent className="add-rec-dialog" data-productid={56}>
                               <DialogHeader>
                                   <DialogTitle>Добавить рекомендации</DialogTitle>
                               </DialogHeader>
