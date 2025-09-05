@@ -15,7 +15,9 @@ function App() {
           <div className="flex flex-col gap-6">
               <div className="border p-2 rounded-xl">
                   <b>Офис:</b>
-                  <p className="office-name">TESTARMPS2 test МО АРМПС2_МСК 1</p>
+                  <p className="office-name" data-officename="TESTARMPS2 test МО АРМПС2_МСК 1">
+                      TESTARMPS2 test МО АРМПС2_МСК 1
+                  </p>
               </div>
               <div className="border p-2 rounded-xl">
                   <b>Пациент:</b>
