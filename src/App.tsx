@@ -15,13 +15,13 @@ function App() {
           <div className="flex flex-col gap-6">
               <div className="border p-2 rounded-xl">
                   <b>Офис:</b>
-                  <p className="office-name" data-officename="TESTARMPS2 test МО АРМПС2_МСК 1">
+                  <p id="office-name" data-officename="TESTARMPS2 test МО АРМПС2_МСК 1">
                       TESTARMPS2 test МО АРМПС2_МСК 1
                   </p>
               </div>
               <div className="border p-2 rounded-xl">
                   <b>Пациент:</b>
-                  <p className="patient-name" data-patientname="Соснин Илья2 Андреевич, 06.10.1990, Медкарта CLBMDX3">
+                  <p id="patient-name" data-patientname="Соснин Илья2 Андреевич, 06.10.1990, Медкарта CLBMDX3">
                       Соснин Илья2 Андреевич, 06.10.1990, Медкарта CLBMDX3
                   </p>
               </div>
